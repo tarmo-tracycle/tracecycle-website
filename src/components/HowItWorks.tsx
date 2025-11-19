@@ -21,7 +21,7 @@ export const HowItWorks = () => {
             </div>
             <div className="hidden md:block absolute top-10 left-[60%] w-[80%] h-0.5 bg-gradient-to-r from-primary/50 to-accent/50"></div>
             <h3 className="text-2xl font-semibold mb-3 text-foreground">Capture Data</h3>
-            <p className="text-muted-foreground leading-relaxed">Batch based data captured from reliable source (e.g. CoA) for every shipment</p>
+            <p className="text-muted-foreground leading-relaxed">The waste batch is identified, the data is combined and analyzed according to the requirements. The high-quality batch is ready for recycling.</p>
           </div>
           
           <div className="relative text-center">
@@ -31,8 +31,8 @@ export const HowItWorks = () => {
               </div>
             </div>
             <div className="hidden md:block absolute top-10 left-[60%] w-[80%] h-0.5 bg-gradient-to-r from-primary/50 to-accent/50"></div>
-            <h3 className="text-2xl font-semibold mb-3 text-foreground">Waste Management / Recipient</h3>
-            <p className="text-muted-foreground leading-relaxed">Data enables seamless collaboration between parties and real-time business control.</p>
+            <h3 className="text-2xl font-semibold mb-3 text-foreground">WM / Recycler</h3>
+            <p className="text-muted-foreground leading-relaxed">The platform enables transparent and real-time supply management for the parties on a single platform.</p>
           </div>
           
           <div className="relative text-center">
@@ -42,7 +42,7 @@ export const HowItWorks = () => {
               </div>
             </div>
             <h3 className="text-2xl font-semibold mb-3 text-foreground">Data as Enabler</h3>
-            <p className="text-muted-foreground leading-relaxed">Reliable data (CoC and Audit-Trail) makes reporting and certification smooth.</p>
+            <p className="text-muted-foreground leading-relaxed">Reliable data (CoC and Audit-Trail) makes collaboration efficient and the necessary reporting and certification smooth.</p>
           </div>
         </div>
       </div>
