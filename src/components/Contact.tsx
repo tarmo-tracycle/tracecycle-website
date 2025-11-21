@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Linkedin, MapPin } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -28,11 +28,18 @@ export const Contact = () => {
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Phone className="h-6 w-6 text-primary" />
+                  <Linkedin className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <div className="font-semibold text-lg text-foreground">Phone</div>
-                  <div className="text-muted-foreground">+358 (0) 40 841 1125</div>
+                  <div className="font-semibold text-lg text-foreground">LinkedIn</div>
+                  <a 
+                    href="https://www.linkedin.com/company/tracecycle-software" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    tracecycle-software
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
