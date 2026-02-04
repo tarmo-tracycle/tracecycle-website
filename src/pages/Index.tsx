@@ -3,17 +3,15 @@ import { Services } from "@/components/Services";
 import { HowItWorks } from "@/components/HowItWorks";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
-import { CookieConsent } from "@/components/CookieConsent";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background text-foreground">
       <Hero />
       <Services />
       <HowItWorks />
       <Contact />
       <Footer />
-      <CookieConsent />
     </div>
   );
 };
