@@ -18,12 +18,9 @@ export const Hero = () => {
             </p>
             <div className="flex gap-4">
               <a href="mailto:tarmo@tracecycle.io?subject=Technical Sync Request: [Your Company Name]&body=Hi Tarmo,%0D%0A%0D%0AWe are interested in discussing the technical integration of Tracecycle into our production flow. %0D%0A%0D%0ABest regards,"
-  className="bg-primary text-primary-foreground px-10 py-5 rounded-xl font-bold text-lg hover:opacity-90 transition-all shadow-lg shadow-primary/20 inline-block text-center"
->
-  Schedule Technical Sync
-</a>
-      
-          
+              className="bg-primary text-primary-foreground px-10 py-5 rounded-xl font-bold text-lg hover:opacity-90 transition-all shadow-lg shadow-primary/20 inline-block text-center">
+        Schedule Technical Sync
+        </a>
           </div>
           <div className="relative hidden lg:block">
             <div className="relative bg-card rounded-3xl p-10 shadow-strong border border-border overflow-hidden">
