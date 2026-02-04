@@ -17,11 +17,15 @@ export const Hero = () => {
               Zero manual input. 100% verified data directly from your sensors.
             </p>
             <div className="flex gap-4">
-              <a href="mailto:tarmo@tracecycle.io?subject=Technical Sync Request: [Your Company Name]&body=Hi Tarmo,%0D%0A%0D%0AWe are interested in discussing the technical integration of Tracecycle into our production flow. %0D%0A%0D%0ABest regards,"
-              className="bg-primary text-primary-foreground px-10 py-5 rounded-xl font-bold text-lg hover:opacity-90 transition-all shadow-lg shadow-primary/20 inline-block text-center">
-        Schedule Technical Sync
-        </a>
+              <a 
+                href="mailto:tarmo@tracecycle.io?subject=Technical Sync Request&body=Hi Tarmo,%0D%0A%0D%0Aaiming to discuss the technical integration of Tracecycle into our production flow."
+                className="bg-primary text-primary-foreground px-10 py-5 rounded-xl font-bold text-lg hover:opacity-90 transition-all shadow-lg shadow-primary/20 inline-block text-center"
+              >
+                Schedule Technical Sync
+              </a>
+            </div>
           </div>
+          
           <div className="relative hidden lg:block">
             <div className="relative bg-card rounded-3xl p-10 shadow-strong border border-border overflow-hidden">
               <h3 className="text-xs uppercase tracking-[0.2em] text-primary mb-10 font-black">Industrial Intelligence Layer</h3>
@@ -32,16 +36,33 @@ export const Hero = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-xl mb-1">Direct Sensor Correlation</h4>
-                    <p className="text-muted-foreground font-medium leading-snug">Automate mass balance and quality tracking directly from live SCADA/PLC data streams.</p>
+                    <p className="text-muted-foreground font-medium leading-snug">
+                      Automate mass balance and quality tracking directly from live SCADA/PLC data streams.
+                    </p>
                   </div>
                 </div>
+
                 <div className="flex items-start gap-5">
                   <div className="mt-1 w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
                     <ShieldCheck className="text-primary h-6 w-6" />
                   </div>
                   <div>
                     <h4 className="font-bold text-xl mb-1">Digital Batch Release</h4>
-                    <p className="text-muted-foreground font-medium leading-snug">Generate technical material profiles and certificates before the batch even leaves the gate.</p>
+                    <p className="text-muted-foreground font-medium leading-snug">
+                      Generate technical material profiles and certificates before the batch leaves the gate.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <div className="mt-1 w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
+                    <BarChart3 className="text-primary h-6 w-6" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-xl mb-1">Predictive Yield Audits</h4>
+                    <p className="text-muted-foreground font-medium leading-snug">
+                      Audit-ready compliance for PPWR with data derived from actual energy and mass flows.
+                    </p>
                   </div>
                 </div>
               </div>
