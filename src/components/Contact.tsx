@@ -25,7 +25,7 @@ export const Contact = () => {
                     </div>
                     <div>
                       <div className="font-bold text-lg">Email</div>
-                      <div className="text-muted-foreground">tarmo@tracecycle.io</div>
+                      <div className="text-muted-foreground">info@tracecycle.io</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
