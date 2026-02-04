@@ -23,7 +23,10 @@ export const Contact = () => {
                 </div>
                 <div>
                   <div className="font-bold text-lg">Email</div>
-                  <div className="text-muted-foreground">tarmo@tracecycle.io</div>
+                  <a href="mailto:tarmo@tracecycle.io?subject=Technical Integration Brief Request"
+  className="mt-6 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-bold hover:opacity-90 transition-all inline-block text-center">
+  Request Brief
+</a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
