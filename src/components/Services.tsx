@@ -1,48 +1,54 @@
-import { CheckCircle, BarChart3, Shield, Zap } from "lucide-react";
+import { Target, BarChart3, ShieldCheck, Cpu } from "lucide-react";
 
 export const Services = () => {
   return (
-    <section className="py-20 bg-muted/30">
+    <section className="py-24 bg-muted/30">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
-            Why Choose Tracecycle?
+        <div className="max-w-4xl mx-auto text-center mb-20 space-y-6">
+          <h2 className="text-4xl lg:text-6xl font-bold tracking-tight text-foreground">
+            Built for Industrial Reality
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Your company gains full visibility into waste-based raw material quality, transportation, and partner collaboration with real-time and reliable data - and the ability to improve reporting and certification.
+          <p className="text-xl text-muted-foreground leading-relaxed">
+            Stop wasting engineering hours on manual reporting. We automate technical 
+            validation directly from your production stream.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="p-6 border border-border rounded-lg bg-card">
-            <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-              <CheckCircle className="h-6 w-6 text-primary" />
+        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="p-8 border border-border rounded-2xl bg-card shadow-sm">
+            <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+              <Cpu className="h-7 w-7 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-card-foreground">End-to-End Traceability</h3>
-            <p className="text-muted-foreground leading-relaxed">Tracking from waste operations and sorting to recycling destination with complete Chain of Custody and audit-trails.</p>
+            <h3 className="text-2xl font-bold mb-4">Direct Sensor Integration</h3>
+            <p className="text-muted-foreground text-lg">
+              Tracecycle connects as an invisible layer to your SCADA and PLC networks to capture real-time production parameters. No manual data entry required.
+            </p>
           </div>
-          
-          <div className="p-6 border border-border rounded-lg bg-card">
-            <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-              <BarChart3 className="h-6 w-6 text-primary" />
+          <div className="p-8 border border-border rounded-2xl bg-card shadow-sm">
+            <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+              <Target className="h-7 w-7 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-card-foreground">Data fuels your business</h3>
-            <p className="text-muted-foreground leading-relaxed">Live data and KPIs helps you to forecast and optimise your business while improving your material collaboration and quality.</p>
+            <h3 className="text-2xl font-bold mb-4">Batch Performance Mapping</h3>
+            <p className="text-muted-foreground text-lg">
+              We correlate feedstock source data with production yields. Identify which suppliers deliver the highest output quality per kWh.
+            </p>
           </div>
-          
-          <div className="p-6 border border-border rounded-lg bg-card">
-            <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-              <Shield className="h-6 w-6 text-primary" />
+          <div className="p-8 border border-border rounded-2xl bg-card shadow-sm">
+            <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+              <ShieldCheck className="h-7 w-7 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-card-foreground">Compliance Assurance</h3>
-            <p className="text-muted-foreground leading-relaxed">Our verifiable data to meets increasing regulations and audit-ready documentation and certification tracking.</p>
+            <h3 className="text-2xl font-bold mb-4">Automated Technical Release</h3>
+            <p className="text-muted-foreground text-lg">
+              Generate digital material profiles that prove technical compliance before the material leaves the yard. Speed up your sales cycle.
+            </p>
           </div>
-          
-          <div className="p-6 border border-border rounded-lg bg-card">
-            <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-              <Zap className="h-6 w-6 text-primary" />
+          <div className="p-8 border border-border rounded-2xl bg-card shadow-sm">
+            <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+              <BarChart3 className="h-7 w-7 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-card-foreground">Operational Efficiency</h3>
-            <p className="text-muted-foreground leading-relaxed">The solution helps you with material quality assurance, which improves your material flows and cost efficiency.</p>
+            <h3 className="text-2xl font-bold mb-4">Real-time Yield Audits</h3>
+            <p className="text-muted-foreground text-lg">
+              Audit-ready for PPWR mass balance requirements. Data derived from actual energy and mass flows, not Excel estimates.
+            </p>
           </div>
         </div>
       </div>
